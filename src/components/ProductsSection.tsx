@@ -5,7 +5,7 @@ const ProductsSection = () => {
   const products = [
     {
       name: "Levoit Core 300",
-      image: "https://m.media-amazon.com/images/I/71Euh5zaA7L._AC_SL1500_.jpg",
+      image: "https://images.unsplash.com/photo-1585771588687-3e7110531200?q=80&w=1000&auto=format&fit=crop",
       price: "89,99 €",
       rating: "9.2/10",
       bestFor: "Meilleur rapport qualité/prix",
@@ -16,11 +16,11 @@ const ProductsSection = () => {
         "Idéal pour pièces jusqu'à 41m²"
       ],
       description: "Le purificateur Levoit Core 300 offre une excellente filtration pour les chambres et salons de taille moyenne à un prix très accessible.",
-      amazonLink: "#"
+      amazonLink: "https://www.amazon.fr/dp/B07S8LNRSL"
     },
     {
       name: "Xiaomi Air Purifier 4 Lite",
-      image: "https://m.media-amazon.com/images/I/51enLs5vgfL._AC_SL1500_.jpg",
+      image: "https://images.unsplash.com/photo-1585155967849-91c736786c64?q=80&w=1000&auto=format&fit=crop",
       price: "99,99 €",
       rating: "9.0/10",
       bestFor: "Meilleur connecté",
@@ -31,11 +31,11 @@ const ProductsSection = () => {
         "Mode automatique intelligent"
       ],
       description: "Le Xiaomi Air Purifier 4 Lite combine performance et technologie avec un excellent rapport qualité-prix et des fonctionnalités connectées.",
-      amazonLink: "#"
+      amazonLink: "https://www.amazon.fr/dp/B092LLVWCW"
     },
     {
       name: "Philips AC1715/10",
-      image: "https://m.media-amazon.com/images/I/61SzGgPvJWL._AC_SL1500_.jpg",
+      image: "https://images.unsplash.com/photo-1582845512747-e42001c95638?q=80&w=1000&auto=format&fit=crop",
       price: "149,99 €",
       rating: "8.8/10",
       bestFor: "Meilleur pour les allergies",
@@ -46,7 +46,7 @@ const ProductsSection = () => {
         "Affichage numérique de la qualité de l'air"
       ],
       description: "Le Philips AC1715/10 est particulièrement efficace contre les allergènes et dispose d'une excellente interface utilisateur.",
-      amazonLink: "#"
+      amazonLink: "https://www.amazon.fr/dp/B08HRXZ6Q4"
     }
   ];
 
