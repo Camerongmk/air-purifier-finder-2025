@@ -7,14 +7,14 @@ const Hero = () => {
       <div className="container px-4 md:px-6 flex flex-col md:flex-row items-center text-center md:text-left gap-8">
         <div className="space-y-3 flex-1">
           <h1 className="text-3xl md:text-5xl font-bold tracking-tighter">
-            Comparatif Purificateurs d'Air <span className="text-blue-500">Pas Chers</span> 2025
+            Recherche <span className="text-blue-500">Purificateurs d'Air</span> 2025
           </h1>
           <p className="max-w-[700px] text-muted-foreground md:text-xl">
-            Découvrez notre sélection des meilleurs purificateurs d'air abordables pour améliorer la qualité de l'air de votre maison.
+            Découvrez notre analyse complète des meilleurs purificateurs d'air pour améliorer la qualité de l'air de votre maison.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-6">
             <Button size="lg" className="bg-blue-500 hover:bg-blue-600">
-              Voir le comparatif
+              Voir la recherche
             </Button>
             <Button size="lg" variant="outline">
               Guide d'achat
@@ -25,7 +25,7 @@ const Hero = () => {
               Mis à jour le 20 mai 2025
             </p>
             <p className="font-medium">
-              Après avoir testé plus de 30 modèles, nous avons sélectionné les 10 meilleurs purificateurs d'air abordables du marché.
+              Après avoir testé plus de 30 modèles, nos recherches ont identifié les 10 meilleurs purificateurs d'air du marché.
             </p>
           </div>
         </div>

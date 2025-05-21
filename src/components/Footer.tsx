@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
           <div className="flex items-center gap-2 mb-4 md:mb-0">
             <Wind className="h-6 w-6 text-blue-500" />
-            <span className="text-xl font-bold">PurificateursCompare</span>
+            <span className="text-xl font-bold">RecherchePurificateurs</span>
           </div>
           <div className="flex flex-col md:flex-row gap-4 md:gap-8">
             <a href="#" className="text-sm hover:text-blue-500">
@@ -32,7 +32,7 @@ const Footer = () => {
         <Separator className="mb-8" />
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground mb-4 md:mb-0">
-            © 2025 Comparatif Purificateurs d'Air Pas Chers. Tous droits réservés.
+            © 2025 Recherche Purificateurs d'Air. Tous droits réservés.
           </p>
           <div className="flex gap-4">
             <p className="text-xs text-muted-foreground">
