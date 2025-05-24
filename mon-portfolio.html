@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cameron Gauthier - Créateur de sites web</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+        }
+        .gradient-text {
+            background: linear-gradient(45deg, #3b82f6, #10b981);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .testimonial-card {
+            border-left: 4px solid #3b82f6;
+        }
+        .profile-image {
+            width: 180px; /* Taille augmentée */
+            height: 180px; /* Taille augmentée */
+            object-fit: cover;
+            border: 4px solid white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .icon-badge {
+            width: 40px; /* Taille augmentée */
+            height: 40px; /* Taille augmentée */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 max-w-4xl mx-auto px-4 py-12">
+    <!-- Header avec photo de profil -->
+    <header class="mb-16 text-center">
+        <div class="flex justify-center mb-6">
+            <div class="relative">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=180&h=180&q=80" 
+                     alt="Cameron Gauthier" 
+                     class="rounded-full profile-image">
+                <div class="absolute -bottom-2 -right-2 bg-blue-500 text-white rounded-full icon-badge">
+                    <i class="fas fa-laptop-code text-lg"></i> <!-- Taille de l'icône augmentée -->
+                </div>
+            </div>
+        </div>
+        
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">
+            👋 Je suis <span class="gradient-text">Cameron Gauthier</span>
+        </h1>
+        <p class="text-xl text-gray-600">
+            Créateur de sites web <span class="font-semibold">simples et efficaces</span> pour les petites entreprises
+        </p>
+    </header>
+
+    <!-- Localisation -->
+    <section class="mb-16 p-6 bg-white rounded-xl shadow-sm">
+        <div class="flex items-center justify-center">
+            <i class="fas fa-map-marker-alt text-blue-500 text-2xl mr-3"></i>
+            <p class="text-lg">
+                <span class="font-bold">Basé à Toulouse</span> – Mais je travaille avec des commerces partout en France !
+            </p>
+        </div>
+    </section>
+
+    <!-- Promesse -->
+    <section class="mb-16">
+        <h2 class="text-2xl font-bold mb-6 flex items-center">
+            <i class="fas fa-handshake mr-3 text-blue-500"></i> Ma promesse
+        </h2>
+        
+        <div class="space-y-4">
+            <div class="p-5 bg-white rounded-lg shadow-sm">
+                <h3 class="font-bold mb-2">Des sites <span class="gradient-text">sans jargon technique</span></h3>
+                <p class="text-gray-600">Vous gérez votre contenu comme un pro avec une interface intuitive.</p>
+            </div>
+            
+            <div class="p-5 bg-white rounded-lg shadow-sm">
+                <h3 class="font-bold mb-2"><span class="gradient-text">Délais express</span></h3>
+                <p class="text-gray-600">Site prêt en 48h à 72h grâce à mon expertise dans le code et à mes templates optimisés.</p>
+            </div>
+            
+            <div class="p-5 bg-white rounded-lg shadow-sm">
+                <h3 class="font-bold mb-2"><span class="gradient-text">Prix transparent</span></h3>
+                <p class="text-gray-600">Forfait unique, pas de surprises. Vous savez exactement à quoi vous attendre.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Atouts -->
+    <section class="mb-16">
+        <h2 class="text-2xl font-bold mb-6 flex items-center">
+            <i class="fas fa-star mr-3 text-yellow-400"></i> Mes atouts
+        </h2>
+        
+        <div class="grid md:grid-cols-2 gap-4">
+            <div class="p-5 bg-white rounded-lg shadow-sm">
+                <div class="flex items-center mb-2">
+                    <i class="fas fa-laptop-code text-blue-500 mr-3"></i>
+                    <h3 class="font-bold">Expertise technique</h3>
+                </div>
+                <p class="text-gray-600 text-sm">Code propre + SEO intégré</p>
+            </div>
+            
+            <div class="p-5 bg-white rounded-lg shadow-sm">
+                <div class="flex items-center mb-2">
+                    <i class="fas fa-robot text-purple-500 mr-3"></i>
+                    <h3 class="font-bold">Outils IA</h3>
+                </div>
+                <p class="text-gray-600 text-sm">Génération de textes et visuels accélérée</p>
+            </div>
+            
+            <div class="p-5 bg-white rounded-lg shadow-sm">
+                <div class="flex items-center mb-2">
+                    <i class="fas fa-mobile-alt text-green-500 mr-3"></i>
+                    <h3 class="font-bold">Mobile-first</h3>
+                </div>
+                <p class="text-gray-600 text-sm">Votre site sera parfait sur téléphone</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Témoignages -->
+    <section class="mb-16">
+        <h2 class="text-2xl font-bold mb-6 flex items-center">
+            <i class="fas fa-quote-left mr-3 text-blue-500"></i> Exemples de projets
+        </h2>
+        
+        <div class="space-y-6">
+            <!-- Restaurant -->
+            <div class="p-6 bg-white rounded-lg shadow-sm testimonial-card">
+                <div class="flex items-center mb-3">
+                    <i class="fas fa-utensils text-xl text-blue-500 mr-3"></i>
+                    <h3 class="font-bold">Restaurant – "Le P'tit Marché Toulousain"</h3>
+                </div>
+                <p class="text-gray-600 italic mb-2">"On cherchait à se démarquer des autres restos du centre-ville, et tu as su capter notre identité à la perfection. Depuis la mise en ligne du site, on a plus de réservations, même en semaine. Merci pour ton écoute et ta créativité, c'est pro et efficace !"</p>
+                <p class="text-sm text-gray-500">— Julien C., propriétaire à Toulouse</p>
+            </div>
+            
+            <!-- Coiffure -->
+            <div class="p-6 bg-white rounded-lg shadow-sm testimonial-card">
+                <div class="flex items-center mb-3">
+                    <i class="fas fa-cut text-xl text-purple-500 mr-3"></i>
+                    <h3 class="font-bold">Salon de coiffure – "L'Atelier du Cheveu – Toulouse Saint-Cyprien"</h3>
+                </div>
+                <p class="text-gray-600 italic mb-2">"Le site reflète vraiment le style de notre salon : moderne, tendance et accueillant. Les clients adorent pouvoir prendre rendez-vous en ligne, surtout les nouveaux venus à Toulouse. Une vraie plus-value pour notre image locale."</p>
+                <p class="text-sm text-gray-500">— Mélissa R., coiffeuse à Saint-Cyprien</p>
+            </div>
+            
+            <!-- Dentiste -->
+            <div class="p-6 bg-white rounded-lg shadow-sm testimonial-card">
+                <div class="flex items-center mb-3">
+                    <i class="fas fa-tooth text-xl text-blue-400 mr-3"></i>
+                    <h3 class="font-bold">Dentiste – "Cabinet Dentaire Compans-Caffarelli"</h3>
+                </div>
+                <p class="text-gray-600 italic mb-2">"Notre ancien site datait de 2010… Tu l'as transformé en un outil moderne, rassurant, avec un espace patient bien pensé. Résultat : plus d'appels, et surtout plus de patients informés avant leur rendez-vous. Merci pour ta réactivité !"</p>
+                <p class="text-sm text-gray-500">— Dr. Nicolas T., chirurgien-dentiste à Toulouse</p>
+            </div>
+            
+            <!-- Photographe -->
+            <div class="p-6 bg-white rounded-lg shadow-sm testimonial-card">
+                <div class="flex items-center mb-3">
+                    <i class="fas fa-camera text-xl text-yellow-500 mr-3"></i>
+                    <h3 class="font-bold">Photographe – "Flash Ô Sud"</h3>
+                </div>
+                <p class="text-gray-600 italic mb-2">"Basé à Toulouse, j'avais besoin d'un site qui mette en valeur mes shootings mariage et portraits. Tu as su créer un portfolio élégant et fluide, que mes clients adorent consulter. J'ai gagné plusieurs contrats grâce à ça. Super boulot !"</p>
+                <p class="text-sm text-gray-500">— Laura B., photographe indépendante</p>
+            </div>
+            
+            <!-- Yoga -->
+            <div class="p-6 bg-white rounded-lg shadow-sm testimonial-card">
+                <div class="flex items-center mb-3">
+                    <i class="fas fa-spa text-xl text-green-500 mr-3"></i>
+                    <h3 class="font-bold">Studio bien-être – "Toulouse Zen"</h3>
+                </div>
+                <p class="text-gray-600 italic mb-2">"J'ai ouvert mon studio en 2024 et ton site m'a permis d'être visible rapidement dans toute la région toulousaine. Réservations en ligne, planning des cours, blog bien-être… Tout y est, et ça marche !"</p>
+                <p class="text-sm text-gray-500">— Éric M., professeur de yoga à Toulouse</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="bg-blue-600 text-white rounded-xl p-8">
+        <h2 class="text-2xl font-bold mb-6 text-center">Contact Toulouse</h2>
+        
+        <div class="flex flex-col items-center space-y-4">
+            <a href="mailto:websmartcreator@gmail.com" class="flex items-center hover:underline">
+                <i class="fas fa-envelope mr-3 text-xl"></i>
+                websmartcreator@gmail.com
+            </a>
+            
+            <a href="tel:0607817230" class="flex items-center hover:underline">
+                <i class="fas fa-phone mr-3 text-xl"></i>
+                06 07 81 72 30
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-12 text-center text-gray-500 text-sm">
+        <p>© 2024 Cameron Gauthier. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
